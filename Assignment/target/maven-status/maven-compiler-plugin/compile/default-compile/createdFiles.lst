@@ -1,0 +1,9 @@
+com\assignment\utilities\DatabaseBootstrap.class
+com\assignment\model\Student.class
+com\assignment\model\Organization.class
+com\assignment\model\Message.class
+com\assignment\model\Teacher.class
+com\assignment\utilities\DbConnection.class
+com\assignment\servlets\AppServlet.class
+com\assignment\servlets\StudentServlet.class
+com\assignment\utilities\DbConnectionI.class

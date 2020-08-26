@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Practice</title>
+
+    <script>
+        function myFunction(){
+            document.getElementById("demo3").innerHTML="This is the paragrapgh changed";
+        }
+    </script>
+</head>
+<body>
+
+<p id="demo">This is a practice example</p>
+
+<button type="button" onclick='document.getElementById("demo").innerHTML="This is the output"'> Click me </button>
+
+<p id="demo2">This is a practice example</p>
+<button type="button" onclick='document.getElementById("demo2").style.fontSize="35px"'> Click me </button>
+<p>Javascript can change HTML attribte values. </p>
+<p>In this case Javascript changes values of the source attribute of an image</p>
+
+<button type="button" onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+
+<img id="myImage" src="./Images/pic_bulboff.gif" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+
+<p id="demo3">THis is an example of javascript inside the header tag</p>
+<button type="button" onclick="myFunction()">Click me</button>
+<button type="button" onclick="practice.js/FunctionDemo()">Try me</button>
+</body>
+</html>

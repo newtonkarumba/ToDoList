@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script src="./js/app.js"></script>
+</head>
+<body>
+<h1>===Welcome User To your To-Do-List. What would you like to do? ===</h1>
+<hr/>
+<div class="navbar">
+    <ul>
+        <li><a class="active" href="home.jsp">Home</a></li>
+        <li><a href="add.html">Add Student</a></li>
+        <li><a href="view.html">View All Students</a></li>
+        <li><a href="delete.html">Delete All Students</a></li>
+
+    </ul>
+</div>
+<hr/>
+<h3>These are all the Students in the database</h3>
+<hr/>
+<table id="customers">
+    <tr>
+        <th>Student Name</th>
+        <th>Student Id</th>
+        <hr/>
+    </tr>
+    <tr>
+        <td>Alfreds Mutua</td>
+        <td>12ab</td>
+
+    </tr>
+    <tr>
+        <td>Jack Daniels</td>
+        <td>1275ghab</td>
+
+    </tr>
+    <tr>
+        <td>Undertaker</td>
+        <td>172kab</td>
+    </tr>
+    <tr>
+        <td>Cristiano Ronaldo</td>
+        <td>178cab</td>
+    </tr>
+    <tr>
+        <td>Lionel Messi</td>
+        <td>140ab</td>
+    </tr>
+    <tr>
+        <td>Kenin Debruyne</td>
+        <td>123ab</td>
+    </tr>
+    <tr>
+        <td>Sergio Aguero</td>
+        <td>123gh</td>
+    </tr>
+    <tr>
+        <td>Petter Kenneth</td>
+        <td>56uh</td>
+    </tr>
+    <tr>
+        <td>Simon nganga</td>
+        <td>134yu</td>
+    </tr>
+    <tr>
+        <td>Victor Op</td>
+        <td>13gh</td>
+    </tr>
+</table>
+<hr/>
+<p>would you like to delete all the students? </p>
+<input type="submit" value="DELETE ALL" onclick="document.getElementById('deletedTable').innerHTML='deleted all students from the database'"/>
+<P id="deletedTable"></P>
+</body>
+</html>
