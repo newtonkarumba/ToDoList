@@ -168,3 +168,32 @@ AssignmentJsLib.add = function(){
 
 
 }
+/*AssignmentJsLib.delete = function(){
+
+   var me = this;
+
+    var darams = me.darams;
+
+
+
+    var xhr = new XMLHttpRequest();
+
+    var requestResponse = "";
+
+
+    xhr.onreadystatechange = function(){
+        if (xhr.readyState == XMLHttpRequest.DONE){
+            if (xhr.status == 200){
+                requestResponse = eval('(' + xhr.responseText + ')');
+                 me.callback(requestResponse);
+            }
+        }
+    }
+
+    xhr.open(me.method,"Student" , false);
+    //xhr.send();
+     xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+      xhr.send(params);
+
+
+}*/
